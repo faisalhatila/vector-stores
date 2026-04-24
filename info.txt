@@ -1,0 +1,22 @@
+There are 2 terms in Vectors for storage
+
+**Vector Store:** (It gives storage plus retrieval operations.)
+1. Typically refers to lightweight library or service that focus on storing vectors (embeddings) and performing similarity search.
+2. May not include many traditional database features liek transactions, rich query languages or role base access control
+3. Ideal for prototyping, smaller-scale applications
+4. Example: FAISS (Wher you store vectors and can query them by similarity, but you handle persistance and scaling saperately)
+
+
+**Vector Database:** (It gives storage plus retrieval operations.)
+1. A full fledged database system designed to store and query vectors.
+2. Offers additional "database-like" features:
+    a. Distributed architecture for horizontal scaling.
+    b. Durability and persistance (replication, backup/restore)
+    c. Metadata handeling (schemas, filters)
+    d. Authentication/authorization and more advanced security
+3. Geared for production environments with significant scaling, large dataasets.
+4. Examples: Milvus, Qdrant, Weaviate.
+
+A Vector databse is effectively vector store with extra database features (e.g. Clustring, Scaling, Security, Metadata filtering, and durability)
+
+
