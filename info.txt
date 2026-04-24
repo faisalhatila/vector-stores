@@ -13,7 +13,8 @@ There are 2 terms in Vectors for storage
     a. Distributed architecture for horizontal scaling.
     b. Durability and persistance (replication, backup/restore)
     c. Metadata handeling (schemas, filters)
-    d. Authentication/authorization and more advanced security
+    d. Ptential for ACID or near-ACID gurantees 
+    e. Authentication/authorization and more advanced security
 3. Geared for production environments with significant scaling, large dataasets.
 4. Examples: Milvus, Qdrant, Weaviate.
 
